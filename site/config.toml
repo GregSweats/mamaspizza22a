@@ -11,6 +11,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [Params]
 map_url="https://www.google.com/maps/dir//Mama%27s+Restaurant/data=!4m8!4m7!1m0!1m5!1m1!1s0x537199d13019eecd:0x7e297891015f767!2m2!1d-113.9668025!2d50.732514599999995"
+ANALYTICS_MEASUREMENT_ID="G-QL4G2P19CR"
 
 [Params.brand]
 name = "Mama's Restaurant"

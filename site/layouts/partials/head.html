@@ -28,7 +28,10 @@
 	<meta property="og:url" content="/">
 	<meta property="og:image" content="/img/og-image.jpg">
 
-  {{ if .IsHome }}
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {{ end }}
+	{{ if .IsHome }}
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	{{ end }}
+
+	{{ partial "google-analytics" }}
+
 </head>
