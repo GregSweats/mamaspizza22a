@@ -1,16 +1,30 @@
 <div class="mw7 center ph3 pv4">
 
 	<div class="flex flex-wrap mhn1">
+
+		<!-- https://mertbakir.gitlab.io/hugo/loops-in-hugo/ -->
+		{{/* range $num := (seq 2) }}
+			<!-- <div class="w-100 w-50-ns ph1-ns">
+				<a href="{{ .image1.image }}">
+				<img src="{{ .image1.image }}" alt="{{ .image1.alt }}">
+			</div> -->
+		{{ end */}}
 		<div class="w-100 w-50-ns ph1-ns">
-			<img src="{{ .image1.image }}" alt="{{ .image1.alt }}">
+			<a
+				href="{{ .image1.image }}"
+				target="_blank"
+			>
+				<img src="{{ .image1.image }}" alt="{{ .image1.alt }}">
+			</a>
 		</div>
 
 		<div class="w-100 w-50-ns ph1-ns">
-			<img src="{{ .image2.image }}" alt="{{ .image2.alt }}">
-		</div>
-
-		<div class="w-100 ph1-ns">
-			<img src="{{ .image3.image }}" alt="{{ .image3.alt }}">
+			<a
+				href="{{ .image2.image }}"
+				target="_blank"
+			>
+				<img src="{{ .image2.image }}" alt="{{ .image2.alt }}">
+			</a>
 		</div>
 	</div>
 

@@ -38,21 +38,15 @@ intro:
   description: >
     Mama's Restaurant is the best place for Pizza, Baked Pasta, Wings & more!
 main:
-  heading: Great coffee with no compromises
+  heading: Great meals with no compromises
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Food grown by mainly locally sourced plants from local farmers which helps the local economic environment and global planetary environment.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: Menu Page 1
+    image: /img/brand/menu-page1.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Menu Page 2
+    image: /img/brand/menu-page2.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
@@ -92,5 +86,11 @@ pricing:
       plan: Custom
       price: '?'
 ---
+
+
+## 🔗 Download Menu PDF
+
+> [Menu PDF v2022.1](/pdf)
+
 
 

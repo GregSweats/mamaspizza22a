@@ -10,3 +10,12 @@ BRAND_GUIDELINES.md
 
 ### 📞 Phone
 [(403) 938-3333](tel:+14039383333)
+
+
+
+---
+
+
+## Menu
+https://restaurantguru.com/Mamas-Steak-and-Pizza-Okotoks/menu
+
