@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "theme",
         "repo",
-        "vscode"
+        "vscode",
+        "brand"
     ]
 }
