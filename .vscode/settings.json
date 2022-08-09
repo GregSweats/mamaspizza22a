@@ -1,0 +1,7 @@
+{
+    "conventionalCommits.scopes": [
+        "theme",
+        "repo",
+        "vscode"
+    ]
+}
