@@ -5,16 +5,18 @@
 
 		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
 
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
+		<!-- #protip tc = Text Center -->
+		<div class="flex mb3 tc">
+			{{ range .Params.contact_entries }}
+				<div class="ma3 w-50">
+				<!-- <div class="items-center center"> -->
 					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
+					<p>{{ .text | safeHTML }}</p>
 				</div>
 			{{ end }}
 		</div>
+
+		{{ .Content }}
 
 		{{ partial "contact-form" . }}
 

@@ -1,17 +1,27 @@
 ---
 title: "Contact"
 logo: "/img/brand/logo-mamas-restaurant-1.jpg"
+# https://gohugo.io/content-management/urls/
+aliases: ["/map/"]
 contact_entries:
-  - heading: Location
-    text: "100 Milligan Dr, Okotoks, AB T1S 1C5"
-  - heading: Working hours
-    text: "Tuesday – Saturday: 11AM – 9PM; Sunday: 4PM - 8PM; Monday: Closed"
+  # - heading: Monday
+  #   text: Closed
+  # - heading: Tues-Sat
+  #   text: 11AM–9PM
+  # - heading: Sunday
+  #   text: 4PM-8PM
+  - heading: Contact
+    text: "<a class='fb' href='tel:+14039383333'>📞 (403) 938-3333</a>
+      <br><br>
+      <a href='/map' class='bold'>📍 100 Milligan Dr<br>Okotoks, AB</a>
+    "
+  - heading: Hours
+    text: "<strong>Monday</strong>:     Closed
+      <br><strong>Tue-Sat</strong>: 11:00 AM - 9:00 PM
+      <br><strong>Sunday</strong>:     4PM - 8PM
+    "
+  # - heading: Contact
+  #   text: "[📞 (403) 938-3333](tel:+14039383333) \n\n 100 Milligan Dr. Okotoks, Alberta "
 ---
 
-We’d love to get in touch with you and hear your ideas and questions. We strive to grow and improve constantly and your feedback is valuable for us.
-
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
-
-You can also use the form below for any inquiries about coffee availability, monthly subscriptions and scheduling a 1-on-1 session with our baristas.
-
-Don’t be shy, drop us a line!
+You can also use the form below for any **questions**, **feedback**, or to **Request a Reservation Callback**.
