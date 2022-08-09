@@ -8,8 +8,7 @@ blurb:
     food.
 intro:
   heading: What we offer
-  text: Come try our Donair, Pizza, Baked Pasta, Wings, Burgers, Baked Loafs &
-    some Mediterranean food
+  text: Donairs, Pizza, Pasta, Wings, Burgers, Baked Loaves & Mediterranean!
 products:
   - image: img/bee85abf-14ea-4484-81ae-b1f254511b36.jpg
     text: >-
@@ -22,20 +21,5 @@ products:
 values:
   heading: Never judge a book by the cover...
   text: >-
-    "...Went to Okotoks for busker fest.We didn’t want food from a food truck,
-    rather a place to sit and eat. As a small business owner that has to compete
-    with chain stores I always seek out an independent. A google search led us
-    to Mamas Pizza. I will admit the outside appearance was not inviting. The
-    dark tint on the window drew attention to the webs of glass at the door. I
-    opened the door and saw a few people dining. A cheery waitress promptly
-    greeted us. She brought the menu offered a beverage while we looked it over.
-    She returned with our drinks and asked if we had eaten there before, told us
-    a little about the history of the restaurant explained the homemade from
-    scratch dishes, I asked what she would recommend and she said everything..
-    Her hospitality, attitude and genuineness were 10 star.. Our food came and I
-    couldn’t believe how amazing it all looked. The presentation and portion
-    sizes were evident of attention to detail.. I’ve never seen a donai..."
-
-
-    cecilia
+    adsf
 ---
