@@ -1,3 +1,13 @@
+#
+# Netlify Configuration
+#
+# WARNING: Check URLs in _redirects as well. Cannot use these variables for MAP_URL there.
+#
+#
+# @version 2022-08-10
+#
+
+
 # baseurl = "https://mamaspiza.netlify.app/"
 baseurl = "/"
 languageCode = "en-ca"
@@ -10,8 +20,24 @@ title = "Mama's Restaurant"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [Params]
-map_url="https://www.google.com/maps/dir//Mama%27s+Restaurant/data=!4m8!4m7!1m0!1m5!1m1!1s0x537199d13019eecd:0x7e297891015f767!2m2!1d-113.9668025!2d50.732514599999995"
+# "real" mamas location
+#MAP_URL="https://www.google.com/maps/dir/Mama%27s+Restaurant/data=!4m8!4m7!1m0!1m5!1m1!1s0x537199d13019eecd:0x7e297891015f767!2m2!1d-113.9668025!2d50.732514599999995"
+# "new" "Mama's Restaurant v2" Google Business for www.mamasrest.ca (2022-08-09)
+#MAP_URL="https://www.google.com/maps/dir//Mama's+Restaurant+v2022.2/@50.7365116,-113.9707036,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x537199fe7bf5ed6d:0x712704588d0b8cea!2m2!1d-113.9667266!2d50.7325974?hl=en"
+#MAP_URL="https://www.google.com/maps/dir//Mama%27ss+Restaurant+v2022.2/@50.7365116,-113.9707036,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x537199fe7bf5ed6d:0x712704588d0b8cea!2m2!1d-113.9667266!2d50.7325974?hl=en"
+MAP_URL="https://www.google.com/search?q=Mama%27s+Restaurant+v2022.2&stick=H4sIAAAAAAAA_-NgU1I1qDA1Nje0tExLNU9KM01NMUuxMqgwNzQyNzAxtbBIMUiySE5NXMQq6ZuYm6herBCUWlySWFqUmFeiUGZkYGSkZwQAuEZ6z0UAAAA&hl=en&mat=CRtto57J0FV9ElcBNqvzOlhe8zWz5QOu5G-bmAVFT2bHhBl1AKwZLmyAzV-sr3gn35QW5rR7yARIttM9XaEKHiHf40_wZfleMSBkZ8aUYDVlTEkrY_nJ3wWkOdQfSuozbcc&authuser=0"
+###
+# Google Analytics 2022-08-09
 ANALYTICS_MEASUREMENT_ID="G-QL4G2P19CR"
+###
+
+###
+# Google My Business API 2022-08-09
+GOOGLE_BUSINESS_ACCOUNT_ID="asdf"
+# https://business.google.com/complete/l/06327156389942972834/s/17?initialStep=true&sof=7&flowType=2
+GOOGLE_BUSINESS_LOCATION_ID="06327156389942972834"
+###
+
 
 [Params.brand]
 name = "Mama's Restaurant"

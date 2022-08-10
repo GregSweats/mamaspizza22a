@@ -6,6 +6,7 @@
         "brand",
         "content",
         "analytics",
-        "redirects"
+        "redirects",
+        "netlify"
     ]
 }
