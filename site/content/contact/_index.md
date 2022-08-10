@@ -1,8 +1,11 @@
 ---
 title: "Contact"
 logo: "/img/brand/logo-mamas-restaurant-1.jpg"
+image: /img/bee85abf-14ea-4484-81ae-b1f254511b36.jpg
+
+# Hidden aliases to test /map/ in _redirects
 # https://gohugo.io/content-management/urls/
-aliases: ["/map/"]
+# aliases: ["/map/"]
 contact_entries:
   # - heading: Monday
   #   text: Closed
