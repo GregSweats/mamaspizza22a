@@ -31,7 +31,8 @@ module.exports = merge(common, {
         "dist/**/*.js",
         "dist/**/*.css",
         "site/data/webpack.json"
-      ]}),
+      ]
+    }),
 
     new MiniCssExtractPlugin({
       filename: "[name].css",
