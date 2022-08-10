@@ -5,6 +5,7 @@
         "vscode",
         "brand",
         "content",
-        "analytics"
+        "analytics",
+        "redirects"
     ]
 }
