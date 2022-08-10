@@ -10,9 +10,9 @@
 						src="{{ .image }}"
 						alt=""
 						class="center db mb3"
-						style="width: 240px"
+						width="240"
 					>
-					<p>{{ .text }}</p>
+					<p class="b">{{ .text | markdownify }}</p>
 				</div>
 			{{ end }}
 		</div>

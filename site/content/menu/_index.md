@@ -1,44 +1,29 @@
 ---
-title: Our Menu
+title: Menu
 type: menu
 image: /img/bee85abf-14ea-4484-81ae-b1f254511b36.jpg
 heading: What We Offer
 description: >-
   Mama's Restaurant is the best place for Pizza, Baked Pasta, Wings & more!
 intro:
-  blurbs:
-    - image: /img/illustrations-coffee.svg
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/illustrations-coffee-gear.svg
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/illustrations-tutorials.svg
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/illustrations-meeting-space.svg
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
   heading: What We Offer
   description: >
     Mama's Restaurant is the best place for Pizza, Baked Pasta, Wings & more!
+  blurbs:
+    - text: >
+        **Take Out & Delivery Only**
+      # image: /img/illustrations-tutorials.svg
+    - text: >
+        Buy 1 Pizza Get the 2nd Pizza for 1/2 the Price
+      # image: /img/illustrations-coffee-gear.svg
+    - text: >
+        All orders made fresh to order
+      # image: /img/illustrations-meeting-space.svg
+    - text: >
+        Family owned in Okotoks since 1995
+      # image: /img/illustrations-coffee.svg
 main:
-  heading: Great meals with no compromises
+  heading: Great Meals Without Compromising
   description: >
     Food grown by mainly locally sourced plants from local farmers which helps the local economic environment and global planetary environment.
   image1:
@@ -48,43 +33,39 @@ main:
     alt: Menu Page 2
     image: /img/brand/menu-page2.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: "[Brad Haws, Local Guide, August 2022](https://g.co/kgs/LSj8zh)"
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      Great pizza and quite affordable at the same time. The crust is delicious and holds up to the weight and the quality of the rest of the ingredients, while the sauce really draws everything together. I love to grab a slice whenever I pass through Okotoks!
+  - author: "[Anastasia Grunina, Local Guide, July 2022](https://g.co/kgs/tUAiKQ)"
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      The food is amazing. We ordered cutlets, chef's salad and pizza. Everything was so yummy! If you are looking for a delicious meal, this is the place!
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: Combos
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    Hard to decide what to eat when you're hungry. We've done the hard work for you. Pick one of the three pre-built meals below.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - plan: "Family Combo #1"
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-nsoving couples and bigger crowds'
+        - (1) Lg. **Lasagna** or **Spaghetti**
+        - (1) Lg. **Ceaser Salad**
+        - (1) **10" Med. 3 Topping Pizza**
+      price: '37'
+      description: "_* Extra topping $2_"
+    - plan: "Family Combo #2"
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - (20) **Chicken Wings**
+        - (1) Lg. **Ceaser Salad**
+        - (1) **13" Lg. 3 Topping Pizza**
+      price: '47'
+      description: "_* Extra topping $3_"
+    - plan: "Family Combo #3"
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '?'
+        - (1) Lg. **Mama's Pasta**
+        - (1) Lg. **Ceaser Salad**
+        - (1) **15" XL 3 Topping Pizza**
+      price: '49'
+      description: "_* Extra topping $4_"
 ---
 
 
