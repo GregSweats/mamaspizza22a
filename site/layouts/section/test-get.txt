@@ -1,0 +1,3 @@
+{{ $urlPre := "https://mybusiness.googleapis.com" }}
+{{ $getResult := getJSON $urlPre "/v4/accounts/" site.Params.GOOGLE_BUSINESS_ACCOUNT_ID "/locations/" site.Params.GOOGLE_BUSINESS_LOCATION_ID "/reviews" }}
+{{ $getResult }}

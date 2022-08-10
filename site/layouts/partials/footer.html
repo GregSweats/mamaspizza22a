@@ -1,23 +1,13 @@
 <footer class="bg-black ph3 pv4 white">
 
 	<div class="mw7 center pt3">
-
-	<div class="flex-ns justify-between">
-
+		<div class="flex-ns justify-between tc">
 			<!-- WARNING: mb4 for mobile layout. -->
 			<div class="mb4">
-				<h3 class="f4 b lh-title mb2 primary">Hungry?</h3>
+				<!-- <h4 class="f4 b lh-title mb2 primary">Mama's Restaurant, Okotoks</h4> -->
 				<ul class="mb3">
-					<li class="pb3"><a href="/menu" class="link b">📝 Menu</a></li>
-					<li><a href="/contact" class="link b">📞 Contact</a></li>
-				</ul>
-			</div>
-
-			<div class="mb4">
-				<h3 class="f4 b lh-title mb2 primary">Curious?</h3>
-				<ul class="mb5">
-					<!-- <li><a href="/post" class="link">📰 Updates</a></li> -->
-					<!-- <li><a href="/reviews" class="link">⭐ Reviews &amp; Testimonials</a></li> -->
+					<li class="mb2 pb1"><a href="/menu" class="link b">📝 Menu</a></li>
+					<li class="mb2 pb1"><a href="/contact" class="link b">📞 Contact / Order Now</a></li>
 					<li class="mb3">
 						<a
 							href="https://www.google.com/search?hl=en-CA&gl=ca&q=Mama%27s+Restaurant,+100+Milligan+Dr,+Okotoks,+AB+T1S+1C5&ludocid=568183117938292583&lsig=AB86z5Wg0ldPaHjtzomXINBosN7i#lrd=0x537199d13019eecd:0x7e297891015f767,1"
@@ -28,21 +18,18 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (130+, 4.5/5)
 						</a>
 					</li>
-					<li><a href="/values" class="link">⌛ Mama's History</a></li>
 				</ul>
 			</div>
 
-			<div>
-				<ul class="mhn2">
-					{{ with .Site.GetPage "/contact/" }}
-						{{ range .Params.contact_entries }}
-							<li><h3 class="f4 b lh-title mb1 primary">{{ .heading }}</h3>
-							<p>{{ replace .text "/map" site.Params.MAP_URL | safeHTML }}</p>
-							</li>
-						{{ end }}
+			<ul class="mhn2">
+				{{ with .Site.GetPage "/contact/" }}
+					{{ range .Params.contact_entries }}
+						<!-- <li><h3 class="f4 b lh-title mb1 primary">{{ .heading }}</h3> -->
+						<p>{{ replace .text "/map" site.Params.MAP_URL | safeHTML }}</p>
+						</li>
 					{{ end }}
-				</ul>
-			</div>
+				{{ end }}
+			</ul>
 
 
 			<!-- <div>
@@ -53,12 +40,7 @@
 					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
 				</ul>
 			</div> -->
-
-
-
-
 		</div>
-
 	</div>
 	<!-- LOGO -->
 	<div class="measure-narrow center mb4">
