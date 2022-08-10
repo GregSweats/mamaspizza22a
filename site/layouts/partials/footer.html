@@ -24,8 +24,9 @@
 			<ul class="mhn2">
 				{{ with .Site.GetPage "/contact/" }}
 					{{ range .Params.contact_entries }}
-						<!-- <li><h3 class="f4 b lh-title mb1 primary">{{ .heading }}</h3> -->
-						<p>{{ replace .text "/map" site.Params.MAP_URL | safeHTML }}</p>
+						<li>
+							<!-- <h3 class="f4 b lh-title mb1 primary">{{ .heading }}</h3> -->
+							<p>{{ replace .text "/map" site.Params.MAP_URL | safeHTML }}</p>
 						</li>
 					{{ end }}
 				{{ end }}
